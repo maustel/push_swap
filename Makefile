@@ -12,7 +12,7 @@
 
 NAME = push_swap
 TEST = test
-FLAGS = -Wall -Wextra -Werror -g
+FLAGS = -Wall -Wextra -Werror
 
 LIBFT = ./libft/libft.a
 
