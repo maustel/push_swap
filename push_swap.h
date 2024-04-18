@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maustel <maustel@student.42.fr>            +#+  +:+       +#+        */
+/*   By: maustel <maustel@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/18 09:13:16 by maustel           #+#    #+#             */
-/*   Updated: 2024/04/18 09:13:16 by maustel          ###   ########.fr       */
+/*   Created: 2024/04/18 12:06:06 by maustel           #+#    #+#             */
+/*   Updated: 2024/04/18 12:06:06 by maustel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,8 @@
 
 # include "./libft/libft.h"
 # include <stdlib.h>
-# include <stdarg.h>
 # include <unistd.h>
 # include <limits.h>
-
-# include <stdio.h>
-# include <string.h>
 
 typedef struct p_list
 {

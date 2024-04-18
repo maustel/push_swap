@@ -29,11 +29,11 @@ SRCS =	main.c \
 
 all:	$(NAME)
 
-$(LIBFT):
-	$(MAKE) $(LIB_PATH)
-
 $(NAME): $(LIBFT) ./push_swap.h $(SRCS)
 		cc $(FLAGS) $(SRCS) $(LIBFT) -o $(NAME)
+
+$(LIBFT):
+	$(MAKE) $(LIB_PATH)
 
 fclean:
 	rm -f $(NAME)
